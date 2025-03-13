@@ -6,7 +6,7 @@ import styles from './App.module.css';
 
 const App = () => {
   return (
-    <div>
+    <div className={styles.App}>
       <h1>Phonebook</h1>
       <ContactForm />
       <h2>Contacts</h2>
